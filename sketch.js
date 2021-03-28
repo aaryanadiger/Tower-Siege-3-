@@ -66,7 +66,7 @@ function draw(){
     if(backgroundImg){
         background(backgroundImg);
     } else {
-        background(255);
+        background(0);
     }
 
     noStroke();
