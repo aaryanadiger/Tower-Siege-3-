@@ -56,10 +56,10 @@ function setup(){
     // stand2 2nd level 
     block19 = new Box3(894,80,37,30);
 
-    polygon = Bodies.circle(300,200,20);
+    polygon = Bodies.circle(130,200,20,{density:0.05});
     World.add(world,polygon);
 
-    slingshot = new Slingshot(polygon,{x:360, y:200});
+    slingshot = new Slingshot(polygon,{x:130, y:200});
 }
     
 function draw(){
